@@ -15,5 +15,6 @@ This is my first cloud app
 This text will be repeated <br>
 <% }%>
 <%= new java.util.Date()%>
+This is the master branch
 </body>
 </html>
