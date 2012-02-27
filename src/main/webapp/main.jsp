@@ -9,7 +9,7 @@
 </head>
 <body>
 Hello, how are you?<br>
-This is my first cloud app
+This is my first cloud app. This is feature xyz
 <br>
 <% for(int i = 0; i<10; i++) {%>
 This text will be repeated <br>
