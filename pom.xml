@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ie.cit.cloud.clouddev</groupId>
   <artifactId>demoapp</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Demo Application</name>
   <description>This is a demo application for cloud development application</description>
