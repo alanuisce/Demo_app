@@ -7,5 +7,10 @@
   <name>Demo Application</name>
   <description>This is a demo application for cloud development application</description>
 	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
 	</dependencies>
 </project>
