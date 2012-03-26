@@ -1,6 +1,6 @@
 package ie.cit.cloudapp;
 
-public class ToDo {
+public class Todo {
 	private String text;
 	private boolean done;
 
