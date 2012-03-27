@@ -13,9 +13,8 @@
 <body>
 <h1>ToDo Application</h1>
 <h2>List of To Do items</h2>
-$(param.text)
 <c:forEach items="$(repo.todos)" var="todo">
-$(todo.text)<br/>
+${todo.text}<br/>
 </c:forEach>
 <h2>Create new To Do</h2>
 <form>
