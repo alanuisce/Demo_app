@@ -13,7 +13,16 @@
 <body>
 <h1>ToDo Application</h1>
 <h2>List of To Do items</h2>
-<c:forEach items="$(repo.todos)" var="todo">
+
+<c:if test="${! empty param.text }">
+<%
+	Todo todo = new Todo();
+	todo.setText(request.getParameter("text"));
+	repo.addTodo(todo);
+%>
+</c:if>
+
+<c:forEach items="${repo.todos}" var="todo">
 ${todo.text}<br/>
 </c:forEach>
 <h2>Create new To Do</h2>
